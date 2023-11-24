@@ -1,0 +1,163 @@
+/* CSS code for header section */
+header {
+    background-color: #618685;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 36px;
+    font-family: Myanmar Text;
+    margin: 0;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Myanmar Text;
+    transition: all 0.3s ease;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: #292929;
+}
+
+/* CSS code for main section */
+main {
+    padding-top: 0px;
+    padding-left: 0px;
+    background-color: #fff;
+
+}
+
+#hero {
+    background-color: #fff;
+    background-size: cover;
+    background-position: center center;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+#hero h3 {
+    font-size: 30px;
+    font-family: MV Boli;
+    color: #618685;
+    margin: 0;
+    text-align: center;
+}
+
+
+#hero p {
+
+    font-size: 24px;
+    color: #618685;
+    text-align: center;
+    max-width: 300px;
+    line-height: 1.5;
+}
+
+.btn-primary {
+    font-family: Myanmar Text;
+    height: 120px;
+    width: 200px;
+    background-color: #618685;
+    color: #fff;
+    padding: 30px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: #fff;
+    color: #618685;
+}
+
+#featured-books {
+    padding: 10px 0;
+    background-color: #fff;
+}
+
+#featured-books h2 {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 60px;
+    color: #618685;
+}
+
+.books-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.book {
+    width: 30%;
+    margin-bottom: auto;
+}
+
+.book a {
+    background-color: #fff;
+    color: #292929;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.book a:hover {
+    background-color: #292929;
+    color: #fff;
+}
